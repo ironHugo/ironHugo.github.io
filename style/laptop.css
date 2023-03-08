@@ -1,0 +1,142 @@
+main { width: 670px;
+    margin: 0 auto;
+    color: white;
+}
+aside { background: rgb(138, 35, 135);
+    width: 270px;
+    height: 1000px;
+    display: block;
+}
+section { background: rgb(0, 32, 96);
+    width: 380px;
+    height: 1000px;
+}
+h1, h2, p { padding-left: 15px;
+    padding-right: 15px;
+    transition: scale 2s, text-shadow 2s;
+}
+h1:hover, h2:hover, p:hover, img:hover {
+    scale: 1.1;
+    text-shadow: 10px 10px 10px black;
+}
+img:hover {
+    box-shadow: 10px 10px 10px black;
+}
+h2, p {font-family: Calibri;
+    font-size: 19px;
+}
+p {font-size: 15px;
+}
+#icoOcu {
+    display: none;
+}
+#fot { text-align: center;
+    margin-top:30px;
+}
+img { width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    transition: scale 2s, box-shadow 2s;
+}
+#parFot{ /*border: 1px solid black;*/
+    margin-top: 21px;
+    font-size: 16px;
+    font-family: 'Arial Narrow';
+}
+
+#datCon{ /*border: 1px solid white;*/
+    margin-top: 43px;
+}
+#cueDatCon { font: normal 15px arial;
+    line-height: 24px;
+    /*border: 1px solid black;*/
+    margin-top: 13px;
+    
+}
+
+#lkd {
+    vertical-align: middle;
+}
+#lin {font: bolder 17px arial;
+    
+    line-height: 50px;
+    margin-top: 15px;
+}
+a {color: white;
+   position:absolute;
+    text-decoration: none;
+    
+    margin-left: 10px;
+}
+#edu {
+    margin-top: 24px;
+}
+#forCom {
+    margin-top: 26px;
+}
+
+#manIdi{
+    margin-top: 28px;
+}
+
+#datPer {
+    margin-top: 48px;
+}
+#encDatPer { font-family: 'Franklin Gothic';
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#cueDatPer { margin-top: 26px;
+}
+
+
+#aceDmi { margin-top: 46px;
+
+}
+#cueAceDmi {
+    padding-top: 7px;
+}
+
+#habTec {
+    margin-top: 36px;
+}
+#cueHabTec {
+    padding-top: 10px;
+}
+
+#expLab {
+    margin-top: 39px;
+}
+#cueExpLab {
+    padding-top: 7px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+#otrAct {
+    margin-top: 36px;
+}
+#cueOtrAct {
+    padding-top: 11px;
+}
+#otrDat {
+    margin-top: 43px;
+}
+#cueOtrDat {
+    padding-top: 3px;
+}
+
+    
+main { display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#icoAco {
+    display: none;
+}
+
+
+    

@@ -1,0 +1,73 @@
+@media (max-width:669px){
+    main {
+        width: 380px;
+        position: relative;
+    }
+    aside { display: none;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+    }
+    #capOcu { width: 380px;
+        height: 1000px;
+        background: black;
+        position: absolute;
+        opacity: 0.4;
+        display: none;
+        z-index: 0;
+    }
+    section {
+        text-align: center;
+    }
+    
+    
+    #fot {position: relative; 
+    }
+    
+    #datPer, #fot { margin-top: 0;
+        padding-top: 25px;
+        text-align: left;
+    }
+    #icoOcu {position: absolute;
+        margin-top: -9px;
+    }
+
+    #icoAco, #icoOcu { margin-left: 20px;
+        display: inline;
+        border: 1px solid white;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    #icoAco:hover, #icoOcu:hover {
+        cursor: pointer;
+    }
+    img {position: relative;
+        left: -95px;
+        margin-left: 50%;
+    }
+    #parFot {text-align: center;}
+    #encDatPer { text-align: center;
+        margin-top: 15px;
+    }
+    #cueDatPer {
+        text-align: center;
+    }
+    .mostrar{ display: block;
+        animation: mos 0.5s;
+    }
+    .ocultar{ 
+        animation: ocu 0.5s;
+        display: none;
+    }
+    .desSec {display: block;}
+
+    @keyframes mos {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    @keyframes ocu {
+        0% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+}
